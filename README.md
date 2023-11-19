@@ -1,2 +1,2 @@
-> hadoop fs -ls /user/hive/warehouse/
-> hadoop fs -ls /user/hive/warehouse/categories/
+invalidate metadata;
+show tables;
