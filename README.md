@@ -1,2 +1,1 @@
-sudo -u hdfs hadoop fs -mkdir /user/hive/warehouse/original_access_logs <br/>
-sudo -u hdfs hadoop fs -copyFromLocal /opt/examples/log_files/access.log.2 /user/hive/warehouse/original_access_logs
+https://docs.google.com/document/d/1AozwljnovL1Dr5fNjFjZSUbpCPIJTy0obU4uQZ9VEQk/edit?usp=sharing
