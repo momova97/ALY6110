@@ -1,10 +1,13 @@
--- Most popular product categories
-select c.category_name, count(order_item_quantity) as count
+select c.category_name, count(oi.order_item_quantity) as order_count
+<br/>
 from order_items oi
-inner join products p on oi.order_item_product_id =
-p.product_id
-inner join categories c on c.category_id = p.product_
-category_id
+<br/>
+inner join products p on oi.order_item_product_id = p.product_id
+<br/>
+inner join categories c on c.category_id = p.product_category_id
+<br/>
 group by c.category_name
-order by count desc
+<br/>
+order by order_count desc
+<br/>
 limit 10;
