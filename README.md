@@ -1,1 +1,2 @@
-[https://mh-movahedi.notion.site/The-Code-e12dfa03984648d1ab55074fce956187?pvs=4](https://www.chatcrypt.com/)https://www.chatcrypt.com/
+sudo -u hdfs hadoop fs -mkdir /user/hive/warehouse/original_access_logs
+sudo -u hdfs hadoop fs -copyFromLocal /opt/examples/log_files/access.log.2 /user/hive/warehouse/original_access_logs
