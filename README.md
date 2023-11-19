@@ -1,1 +1,6 @@
-select count(*)url from tokenized_access_logs where url like '%\/product\/%' group by url order by count(*) desc;
+SELECT COUNT(*) AS count,<br/>
+       url<br/>
+FROM tokenized_access_logs<br/>
+WHERE url LIKE '%/product/%'<br/>
+GROUP BY url<br/>
+ORDER BY count DESC;<br/>
